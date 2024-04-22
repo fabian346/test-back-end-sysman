@@ -1,0 +1,14 @@
+spring:
+  application:
+  name: test-back-end-sysman
+
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1522:xe
+    username: SYSTEM
+    password: ra421370Ra
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    generate-ddl: true
+    show-sql: true
