@@ -1,27 +1,37 @@
-# Proyecto API REST para Gestión de Libros con Java y Spring Boot
+# Proyecto API RESTful con Java y Spring Boot
 
-Este proyecto es una API REST para la gestión de libros, construida con Java y Spring Boot. Proporciona varios endpoints para crear, obtener, actualizar y eliminar libros.
+Este proyecto es una API RESTful construida con Java y Spring Boot que proporciona funcionalidades para gestionar libros y autores en una biblioteca.
 
-## Requisitos
+## Requisitos del Entorno de Desarrollo
+Antes de ejecutar este proyecto, debes asegurarte de tener lo siguiente:
 
-- Java 17 o superior
-- Maven 3 o superior
+- **Java JDK**: Asegúrate de tener instalada la versión recomendada de Java (JDK 17 o superior).
+- **Maven**: Una herramienta para la gestión de proyectos y la construcción de aplicaciones Java. Descarga e instala Maven si no lo tienes.
+- **IDE**: Un entorno de desarrollo integrado, como IntelliJ IDEA, Eclipse, o Visual Studio Code.
 
-## Instalación y Compilación
+## Configuración del Proyecto
+Para configurar el proyecto:
 
-Para compilar el proyecto, asegúrate de tener Maven instalado. Desde la raíz del proyecto, ejecuta el siguiente comando:
+1. **Clonar el Repositorio**:
+   Clona el repositorio del proyecto usando `git` o descarga el archivo ZIP desde tu sistema de control de versiones preferido.
+    ```bash
+    git clone https://github.com/tu-repositorio/apirest-spring-boot.git
 
-```bash
-mvn clean install
-```
+2. Importar el Proyecto en tu IDE:
+Abre tu IDE y selecciona la opción para importar un proyecto existente. Luego, selecciona la carpeta del proyecto que acabas de clonar o descomprimir.
+
+3. Compilar el Proyecto:
+Una vez importado, usa Maven para compilar el proyecto y descargar las dependencias necesarias.
+
+    ```bash
+    mvn clean install
+
 Este comando limpiará el proyecto, compilará las clases y empaquetará el proyecto en un archivo JAR.
 
 ## Ejecución
 Para ejecutar el proyecto, usa el archivo JAR generado por Maven. Desde la raíz del proyecto, ejecuta el siguiente comando:
 
-```bash
-java -jar target/test-back-end-sysman.jar
-```
+    java -jar target/test-back-end-sysman.jar
 
 Asegúrate de reemplazar test-back-end-sysman.jar con el nombre del archivo JAR que fue generado durante la compilación.
 
